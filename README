@@ -1,0 +1,24 @@
+USED https://github.com/tpope/vim-pathogen to initiate
+
+To get synastic runing with JS need Jslint or Jhint
+
+instructions: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+
+INSTALATION:
+1) clone
+    git clone git://agdagag
+
+2) create symlinks
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+3) submodules
+retrieve
+    git submodule init
+    git submodule update
+add
+    git submodule add repo_path local_path
+
+4) snipmate snipets
+    rm ~/.vim/bundle/snipmate/snippets/javascript.snippets && ln -s ~/.vim/snipmateSnipets/javascript.snippets ~/.vim/bundle/snipmate/snippets/javascript.snippets
+    rm ~/.vim/bundle/snipmate/snippets/html.snippets && ln -s ~/.vim/snipmateSnipets/html.snippets ~/.vim/bundle/snipmate/snippets/html.snippets
