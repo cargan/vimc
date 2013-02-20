@@ -145,3 +145,4 @@ autocmd BufNewFile,Bufread *.php,*.php3,*.php4 set keywordprg="help"
 set keywordprg=pman
 
 au FileType javascript setl sw=2 sts=2 et
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
