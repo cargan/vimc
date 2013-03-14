@@ -125,7 +125,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 syntax enable
 
-colorscheme xoria256
+colorscheme twilight
 
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
@@ -146,3 +146,8 @@ set keywordprg=pman
 
 au FileType javascript setl sw=2 sts=2 et
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+" hi IndentGuidesOdd  ctermbg=gray
+" hi IndentGuidesEven ctermbg=lightgray
+let g:indent_guides_start_level = 2
+set ts=2 sw=2 et
