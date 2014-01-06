@@ -235,3 +235,15 @@ map <Leader>n :NERDTreeToggle<CR>
 let g:syntastic_check_on_open=0
 let g:syntastic_enable_signs=1
 let g:syntastic_php_checkers=['php']
+
+" Airline
+let g:airline_enable_branch=1
+let g:airline_enable_syntastic=1
+" let g:airline_theme='solarized'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_linecolumn_prefix = '␊ '
+let g:airline_linecolumn_prefix = '␤ '
+let g:airline_linecolumn_prefix = '¶ '
+let g:airline_branch_prefix = '⎇ '
+let g:airline_solarized_reduced = 0
