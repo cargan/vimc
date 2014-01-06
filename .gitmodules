@@ -40,3 +40,15 @@
 [submodule "bundle/indent"]
 	path = bundle/indent
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/align"]
+	path = bundle/align
+	url = https://github.com/tsaleh/vim-align.git
+[submodule "bundle/Tcomm"]
+	path = bundle/Tcomm
+	url = https://github.com/vim-scripts/tComment.git
+[submodule "bundle/MachTag"]
+	path = bundle/MachTag
+	url = https://github.com/gregsexton/MatchTag.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
